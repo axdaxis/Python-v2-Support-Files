@@ -1,8 +1,8 @@
 coins = ['Bronze', 'Silver', 'Gold','Platinum']
-coin = 'gold'
+coin = 'Gold'
 score = 10000
 
-if score > 10000:
+if score >= 10000:
     if coin in ('Gold','Platinum'):
         print("You have reached level 3") #expected
     else:
