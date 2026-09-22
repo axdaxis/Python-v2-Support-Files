@@ -1,4 +1,4 @@
-
+"""This prints some stuff"""
 
 
 game_state = True
@@ -9,4 +9,4 @@ while game_lives <= 3:
     if game_state == True:
         game_lives +=1
 print("Thank you for playing.")
-
+print(__doc__)
